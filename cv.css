@@ -1,0 +1,186 @@
+#header{
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	background-color: black;
+	color: white;
+}
+#wrap{
+	margin: 0 auto;
+	width:900px;
+}
+#wrap ul{
+	list-style: none;
+	margin-top: 2%;
+}
+#wrap ul li{
+	background: #ceced0;
+	width: 200px;
+	border: 1px solid #fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+	font-family: big jhon;
+}
+#wrap ul li:hover{
+	background: lightblue;
+}
+a{
+	color: #666666;
+}
+#image{
+	height: 150px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+}
+#name{
+	letter-spacing:0.2cm;
+	font-weight: bold;
+	margin-top: 30px;
+}
+#int{
+	letter-spacing:0.1cm;
+	margin-top: 30px;
+}
+#underline{
+	width: 400px;
+	height: 7px;
+	margin-top: 20px;
+	background-color: #ceced0;
+}
+#pro{
+	background: #cdcdcf;
+	padding: 10px;
+}
+#wrapper{
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+#icon{
+	height: 10px;
+	margin-left: 20px;
+}
+#main{
+	font-weight:bold;
+	font-size: 17px;
+}
+#first-line{
+	display: grid;
+	grid-template-columns: 0.5fr 3fr 4fr;
+	margin-right: 20px;
+}
+#ob{
+	margin-top: 0px;
+}
+p{
+	text-align: justify;
+}
+#me{
+	margin-left:20px;
+	text-align: justify;
+	margin-right: 20px;
+}
+#con{
+	background: #cdcdcf;
+	padding: 10px;
+	color: #666666;
+}
+#skills{
+	background: #cdcdcf;
+	padding: 10px;
+	color: #666666;
+}
+#loc{
+	height: 20px;
+	margin-left: 20px;
+}
+#space{
+	margin-left: 20px;
+}
+#second{
+	margin-bottom: 15px;
+}
+#mail{
+	height: 15px;
+	margin-left: 20px;
+}
+#progress-bar{
+	background: #cdcdcf;
+	height: 10px;
+	width: 100px;
+	margin-top: 5px;
+	
+}
+#progress{
+	background: black;
+	height: 10px;
+	width: 60px;
+}
+#progress-bar-1{
+	background: #cdcdcf;
+	height: 10px;
+	width: 100px;
+	margin-top: 5px;
+	
+}
+#progress-1{
+	background: black;
+	height: 10px;
+	width: 50px;
+}
+#progress-bar-2{
+	background: #cdcdcf;
+	height: 10px;
+	width: 100px;
+	margin-top: 5px;
+	
+}
+#progress-2{
+	background: black;
+	height: 10px;
+	width: 40px;
+}
+#progress-bar-3{
+	background: #cdcdcf;
+	height: 10px;
+	width: 100px;
+	margin-top: 5px;
+	
+}
+#progress-3{
+	background: black;
+	height: 10px;
+	width: 70px;
+}
+#progress-bar-4{
+	background: #cdcdcf;
+	height: 10px;
+	width: 100px;
+	margin-top: 5px;
+	
+}
+#progress-4{
+	background: black;
+	height: 10px;
+	width: 80px;
+}
+#dash{
+	display: grid;
+	grid-template-columns: 0.5fr 0.6fr;
+}
+#prom{
+	font-weight:bold;
+	font-size: 17px;
+	margin-left: 20px;
+}
+.skills{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}

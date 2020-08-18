@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="cv1.css">
+	</head>
+	<body>
+		<div id="wrapper" class="col-md-offset-2 col-md-8" style="background: #e4e5e9">
+			<div id="head">
+				<div>
+					<img id="image-1" src="agrobot.jpeg">
+				</div>
+				<div>
+					<h2 id="name">Design and Implementation of Agrobot using Computer Vision Technology</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h4 id="pro">DETAILS</h4>
+					<div id="first">
+						<div id="me">
+							<p>The design of this project will help in monitoring areas which are not accessible by human. It saves time and gives accurate results.
+Farmers have to manually keep a check on the fields and do the needful as per the requirement of the plants. Through our proposed system the farmer need not to go to fields but can monitor sitting at home.
+The project can be used for several other purposes like in industry, military and other security purposes making a multipurpose unit.</p>
+							<p>Figure shows the Agrobot. The camera module is plugged in camera port in the Raspberry pi. The user has to give command to the Raspberry pi, PIR Sensor and Soil Moisture Sensor.</p>
+							<p id="more">The Raspberry pi and the camera module is the heart of the system. As soon as Raspberry Pi gets power of 5v it starts initializing the IP address allocated to the web server and establishes connection with the LAN. Once it gets connected successfully, it remains idle until the user sends any command to it which is done by the app called RaspController. After receiving command the Raspberry Pi drives the L298 which starts the stepper motor which is powered by 12v battery. It also start driving PIR Sensor and Soil Moisture Sensor.</p>
+							<p id="more">Once the stepper motor receive the signal is start rotating in clockwise direction the timing belt connected to it starts moving which initiates the movement of pulley attached to it. Thus the plastic pulleys with ball bearing which is attached to the rectangular plate on which components are mounted will also start moving forward. The authenticated user can view the live streaming using RaspController App or VLC Player media.</p>
+							<p id="more">While the rectangular plate is in motion if the PIR sensor detects any obstacle is present which is continuously in motion about 5-7 meter range and in and around 120 degree area. It send signal to the Raspberry pi, the Raspberry Pi send signal to camera module which further captures the image. The captured image can be viewed in app where the user is able to see who or what the obstacle is. The Soil Moisture sensor which is connected to the Raspberry pi using GPIO pin. The MCP 3008 IC will drive the soil moisture sensor. The IC requires 5v power supply which is provided by the Raspberry pi. Soil Moisture Sensor which in dig in the soil will measure the moisture content and MCP 3008 ic will convert the analog signal into digital values and will notify the user the content of water. This is all done simultaneously.</p> 
+							<p id="more">The stepper motor rotates in clockwise and anticlockwise direction. User can control the movement of the motor by running usercontrol code for controlling the movement of stepper motor and also by automatic code which provides the automatic motion of stepper motor.</p>
+							<p id="more">The camera module capture the image of the leaf and sends it to the user. The user further run the Matlab code for the detection of the disease. Which compare the captured image with the dataset for the identification of disease.</p></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h4 id="pro">CONCLUSION</h4>
+					<div id="first">
+						<div id="me">
+							<p>Video surveillance can help ensure farm operations run smoothly and monitor employee behaviour so that critical farm operations are properly carried out. The detection of intrusion into the farm is made possible using Passive Infrared Sensors. The sensor uses the infrared radiations changes as a result of human motion across its field movement. When movement is detected, the pi camera is enabled and it will capture the picture.</p>
+	<p id="more">Soil Moisture Sensor kept at various location in the field detect dryness of the soil and notify the user if water is required. Measuring soil moisture using Raspberry Pi and Soil Moisture Sensor can improve the quality of the plant, maintain the level of soil fertility and avoid the plants from dryness or decay.<p>
+	<p id="more">In this system by using Artificial Neural Network (ANN) is of great use for automatically detecting leaf diseases. This system can be helpful to trade the manual disease identification technique and can be used by agricultural experts in identifying correct pesticide and from this proposed techniques agriculturist can be easily find the disease and can get the good results and profit from the plants.<p>
+</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

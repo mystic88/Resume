@@ -1,0 +1,49 @@
+#wrapper{
+	padding: 0px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#head{
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	background-color: #e4e5e9;
+	color: black;
+}
+#image{
+	height: 150px;
+	width: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+}
+#name{
+	font-weight: bold;
+	margin-top: 80px;
+	margin-right: 20px;
+}
+#pro{
+	background: #cdcdcf;
+	padding: 10px;
+}
+#me{
+	margin-left:20px;
+	text-align: justify;
+	margin-right: 20px;
+}
+#image-1{
+	height: 200px;
+	width: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+}
+p{
+	text-align:justify;
+}
+#more{
+	text-align:justify;
+	text-indent: 50px;
+}
+ul li{
+	font-weight: bold;
+}
